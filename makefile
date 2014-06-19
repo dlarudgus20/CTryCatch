@@ -24,5 +24,7 @@
 
 # yes, it need to be edited..
 
+CFLAGS := $(CFLAGS) -Wall
+
 test: CTryCatch.h CTryCatch.c test.c
 	$(CC) $(CFLAGS) CTryCatch.c test.c -o $@

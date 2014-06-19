@@ -74,4 +74,5 @@ int main()
 	END_CATCH
 
 	getchar();
+	return 0;
 }
